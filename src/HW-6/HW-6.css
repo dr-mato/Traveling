@@ -1,0 +1,102 @@
+#container {
+    background-color: rgb(237, 237, 242);
+    width: 60%;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#member {
+    background-color: white;
+    border-radius: 2px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 10%;
+}
+  
+
+  #image img{
+    width: 100%;
+    max-width: 100%; 
+     
+  }
+  
+  
+  #name {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  #name span{
+    background-color: #bddaf3;
+    margin-left: 1em;
+    border-radius: 2px;
+    color:rgb(126, 117, 255);
+    padding: 0.5rem;
+  }
+  
+  
+  #info {
+    margin-top: 0.5rem;
+    padding:1% 5%;
+
+  }
+  
+  
+  #smallbut {
+    margin-left: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color:rgb(85, 85, 209);
+    border:0;
+    border-radius:5px;
+  }
+  
+  
+  #but button {
+    margin-top: 0.5rem;
+    background-color: white;
+    color: red;
+    border-color: red;
+    border: 0.25em;
+    border-radius: 3px;
+    border-style:solid;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  #smallerCont {
+    margin-top: 1rem;
+    text-align: center;
+
+  }
+  
+  
+  p{
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+
+  #smallerCont button {
+    margin: 0.5rem;
+    background-color: #2196f3;
+    color: #fff;
+    padding: 1rem;
+    width:20rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    
+  }
+  
